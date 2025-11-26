@@ -52,6 +52,7 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+    
   body {
     font-size: 1.8rem;
   }
@@ -63,7 +64,7 @@ p {
   h2 {
     font-size: 4rem;
   }
-  
+
   h3 {
     font-size: 2.4rem;
   }
