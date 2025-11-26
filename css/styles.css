@@ -9,3 +9,7 @@
     --color-heading :#1b0760;
     --color-body:#918ca4;
 }
+
+body{
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
