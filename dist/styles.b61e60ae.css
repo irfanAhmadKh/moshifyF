@@ -167,5 +167,26 @@ p {
   }
 }
 
+/* Icons */
+
+.icon-container{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f9fa;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+}
+
+.icon--primary{
+  fill: var(--color-primary); 
+}
 
 /*# sourceMappingURL=/styles.b61e60ae.css.map */
