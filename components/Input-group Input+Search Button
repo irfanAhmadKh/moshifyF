@@ -1,12 +1,16 @@
-    <div class="input-group">
-      <span class="icon-container">
-        <svg class="icon icon--primary">
-          <use xlink:href="images/sprite.svg#wordpress"></use>
-        </svg>
-      </span>
+<!-- With icon -->
+<div class="input-group">
+  <span class="icon-container">
+    <svg class="icon icon--primary">
+      <use xlink:href="images/sprite.svg#wordpress"></use>
+    </svg>
+  </span>
 
-      <input
-        type="text"
-        class="input"
-        placeholder="Enter Domain Name Here..." />
-    </div>
+  <input type="text" class="input" placeholder="Enter Domain Name Here..." />
+</div>
+
+<!-- With Button -->
+<div class="input-group">
+  <input type="text" class="input" placeholder="Enter Domain Name Here..." />
+   <button class="btn btn--accent">Search</button></div>
+</div>
