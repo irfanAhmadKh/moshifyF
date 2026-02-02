@@ -373,4 +373,23 @@ right: 5%;
   }
 }
 
+
+/* Media */
+
+.media{
+  display: flex;
+}
+
+.media__title{
+  margin-top: 0;
+}
+
+.media__body{
+  margin:0 2rem;
+}
+
+.media__image{
+  margin-top:1rem;
+}
+
 /*# sourceMappingURL=/styles.b61e60ae.css.map */
