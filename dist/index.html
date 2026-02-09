@@ -6,6 +6,7 @@
 
     <!-- javascript -->
     <script src="/main.fb6bbcaf.js" defer=""></script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -18,12 +19,22 @@
     <title>Mosh</title>
   <script src="/normalize.1114379f.js"></script><script src="/styles.b61e60ae.js"></script></head>
 
-  <!-- Part 3 - 27 -> Blocks -->
+  <!-- Part 3 - 29 -> Hero -->
   <body>
-    <!-- Blocks -->
-    <section class="block">
-      <h2 class="block__heading">Heading</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, at!</p>
+    <!-- Hero -->
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading hero__heading">Clud Hostng For Pro's</h1>
+          <p class="hero__tagline">Deploy Your Website In Less Than 60sec</p>
+          <a href="#" class="btn btn--accent btn--stretched">Get Started</a>
+        </header>
+        <picture>
+          <source type="image/webp" srcset="/banner.c3a57844.webp 1x,/banner@2x.bcf558bc.webp 2x">
+          <source type="image/png" srcset="/banner.d99271e5.png 1x,/banner@2x.4174fe9a.png 2x">
+          <img src="/banner.d99271e5.png" alt="" class="hero__image">
+        </picture>
+      </div>
     </section>
   </body>
 </html>
