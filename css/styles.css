@@ -232,7 +232,7 @@ p {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 0.5rem 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -322,6 +322,7 @@ p {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input button {
@@ -774,8 +775,9 @@ p {
 }
 
 .block-domain__prices {
+  color: var(--color-heading);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -864,7 +866,7 @@ p {
 
 .footer__section .list{
   margin: 0;
-}
+} 
 
 .footer__section {
   padding: 2rem;
@@ -883,7 +885,7 @@ p {
 
 .footer__brand{
   width: 100%;
-  max: width 230px;
+  max-width: 230px;
 }
 
 .footer__copyright {
